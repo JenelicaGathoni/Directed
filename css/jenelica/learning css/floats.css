@@ -1,0 +1,23 @@
+.block{
+    width:10vw;
+    height:5vw;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+.left{
+    float:left;
+    margin-right: 1rem;
+}
+
+.right{
+    float:right;
+    margin-left: 1.5rem;
+}
+.clear{
+    clear: both;
+}
+section{
+    background-color: blue;
+    display: flow-root;
+}}

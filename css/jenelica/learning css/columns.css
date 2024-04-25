@@ -1,0 +1,24 @@
+.Columns{
+column-count:4;
+column-width: 250px;
+column-rule: 3px solid blueviolet;
+color: blue;
+column-gap: 3rem;
+}
+.C
+
+olumns h2{
+    margin-top: 0;
+    background-color: gold;
+    padding: 1rem;
+    color: red;
+    break-inside: avoid;
+
+}
+.quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: brown;
+    column-span: all;
+}

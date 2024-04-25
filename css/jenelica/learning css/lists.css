@@ -1,0 +1,20 @@
+body{
+    padding:1%;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: papayawhip;
+    color:darkred;
+}
+ul{
+    list-style-type:square;
+    ::marker{color:blue;
+        
+    
+    }
+    
+}
+h1{color: springgreen;}
+h2{color: darkorchid;}
+ol{
+    list-style-type: lower-roman;
+}

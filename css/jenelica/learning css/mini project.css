@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    margin: o.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+nav{
+    border: 2px solid yellow;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+h2{
+    padding: 1rem;
+    background-color: lightgreen;
+    border-radius: 2rem 2rem;
+}
+ul{
+    list-style-type: none;
+}
+li{
+     border-top:1px solid red ;
+}
+li a {
+    display:block;
+}
+li a, li a visited{
+    text-decoration:none;
+    color: red;
+}
+Li a:hover,
+li a:focus{
+    background-color: gold;
+    color: hotpink;
+    cursor: pointer;
+
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}

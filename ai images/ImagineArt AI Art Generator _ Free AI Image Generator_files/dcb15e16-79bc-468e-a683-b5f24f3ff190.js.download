@@ -1,0 +1,11 @@
+(function() {
+var el = document.createElement('script');
+el.src = 'https://app.formsable.com/ue.js';
+el.async = 'true';
+el.addEventListener('load', function() {
+uipe('init', 'dcb15e16-79bc-468e-a683-b5f24f3ff190');
+uipe('track', 'PageView');
+
+});
+document.head.appendChild(el);
+})();
